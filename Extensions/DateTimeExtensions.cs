@@ -6,6 +6,6 @@ public static class DateTimeExtensions
   /// </summary>
   public static bool IsDaylightSavingTime()
   {
-    return TimeZone.CurrentTimeZone.IsDaylightSavingTime(DateTime.Now);
+    return System.TimeZone.CurrentTimeZone.IsDaylightSavingTime(DateTime.Now);
   }
 }
